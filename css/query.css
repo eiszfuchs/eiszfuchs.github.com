@@ -1,0 +1,127 @@
+/* CSS document */
+
+@media only screen
+and (max-width: 320px) {
+	body {
+		font-size: 7pt;
+		width: 16em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 8em; }
+	.project.width-1 { width:  4em; }
+	.project.width-2 { width:  8em; }
+	.project.width-3 { width: 12em; }
+	.project.width-4 { width: 16em; }
+	#main .project-list a.inside { height: 7em; }
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+	body {
+		font-size: 8pt;
+		width: 24em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 12em; }
+	.project.width-1 { width:  6em; }
+	.project.width-2 { width: 12em; }
+	.project.width-3 { width: 18em; }
+	.project.width-4 { width: 24em; }
+	#main .project-list a.inside { height: 11em; }
+}
+
+@media only screen
+and (min-width: 480px)
+and (max-width: 640px) {
+	body {
+		font-size: 9pt;
+		width: 32em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 16em; }
+	.project.width-1 { width:  8em; }
+	.project.width-2 { width: 16em; }
+	.project.width-3 { width: 24em; }
+	.project.width-4 { width: 32em; }
+	#main .project-list a.inside { height: 15em; }
+}
+
+@media only screen
+and (min-width: 640px)
+and (max-width: 800px) {
+	body {
+		font-size: 10pt;
+		width: 40em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 20em; }
+	.project.width-1 { width: 10em; }
+	.project.width-2 { width: 20em; }
+	.project.width-3 { width: 30em; }
+	.project.width-4 { width: 40em; }
+	#main .project-list a.inside { height: 19em; }
+}
+
+@media only screen
+and (min-width: 800px)
+and (max-width: 1024px) {
+	body {
+		font-size: 11pt;
+		width: 48em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 24em; }
+	.project.width-1 { width: 12em; }
+	.project.width-2 { width: 24em; }
+	.project.width-3 { width: 36em; }
+	.project.width-4 { width: 48em; }
+	#main .project-list a.inside { height: 23em; }
+}
+
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1280px) {
+	body {
+		font-size: 12pt;
+		width: 56em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 28em; }
+	.project.width-1 { width: 14em; }
+	.project.width-2 { width: 28em; }
+	.project.width-3 { width: 42em; }
+	.project.width-4 { width: 56em; }
+	#main .project-list a.inside { height: 27em; }
+}
+
+@media only screen
+and (min-width: 1280px)
+and (max-width: 1920px) {
+	body {
+		font-size: 14pt;
+		width: 64em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 32em; }
+	.project.width-1 { width: 16em; }
+	.project.width-2 { width: 32em; }
+	.project.width-3 { width: 48em; }
+	.project.width-4 { width: 64em; }
+	#main .project-list a.inside { height: 31em; }
+}
+
+@media only screen
+and (min-width: 1920px) {
+	body {
+		font-size: 18pt;
+		width: 64em;
+		margin: 2em auto;
+	}
+	#main .project-list > .project { height: 32em; }
+	.project.width-1 { width: 16em; }
+	.project.width-2 { width: 32em; }
+	.project.width-3 { width: 48em; }
+	.project.width-4 { width: 64em; }
+	#main .project-list a.inside { height: 31em; }
+}
